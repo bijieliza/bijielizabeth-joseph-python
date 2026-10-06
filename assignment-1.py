@@ -1,4 +1,5 @@
 #variables and types
+import datetime
 name = "Alex"
 age = 27
 height = 5.9
@@ -34,12 +35,10 @@ print(f"Item:       {Item}")
 print(f"Price:      ${Price}")
 print(f"Quantity:   {Quantity}")
 print("---------------------------")
-print("Total:       $"+ str(Total) )
+print(f"Total:       ${Total:.2f}" )
 print("===========================")
 
 #Profile Card
-import datetime
-#name= input("Name")
 htown=input("Hometown")
 hobby=input("Hobby") 
 ffact=input("Fun fact")
