@@ -1,3 +1,41 @@
+#variables and types
+name = "Alex"
+age = 27
+height = 5.9
+is_student = True
+print(name, type(name))
+print(age, type(age))
+print(height, type(height))
+print(is_student, type(is_student))
+
+#Hi, Jordan! You are approximately 24 years old.
+#User input and Math
+Name=input("Name")
+age=input("age")
+print (f"Hi, {Name}! You are approximately {age} years old.")
+
+#Type Conversion and f-strings
+number1=float(input("Enter number1"))
+number2=float(input("Enter number2"))
+result=number1 * number2
+print(f"{number1} * {number2} = {result}")
+
+#Formatted Receipt
+Item="Python textbook"
+Price=float("29.99")
+Quantity=float("2")  
+Total=Price * Quantity
+print("===========================")
+print("           Receipt")
+print("===========================")
+print(f"Item:       {Item}")
+print(f"Price:      ${Price}")
+print(f"Quantity:   {Quantity}")
+print("---------------------------")
+print("Total:       $"+ str(Total) )
+print("===========================")
+
+#Profile Card
 import datetime
 name= input("Name")
 htown=input("Hometown")
